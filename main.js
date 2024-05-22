@@ -21,10 +21,19 @@ for (let i=1; i<=20 ; i+=2){
 
 // 4
 
-// let a =0;
-//     b=1;
-//     c;
-//  for(let i=2; i<)
+function printFibonacciSequence(n) {
+    let a = 0, b = 1, nextTerm;
+    console.log("Fibonacci Sequence:");
+  
+    for (let i = 0; i < n; i++) {
+      console.log(a);
+      nextTerm = a + b;
+      a = b;
+      b = nextTerm;
+    }
+  }
+  
+  printFibonacciSequence(10)
 
 
     // 5
