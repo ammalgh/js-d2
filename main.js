@@ -75,3 +75,20 @@ function printFibonacciSequence(n) {
     }
     y= division(10, 2);
     console.log(y);
+
+
+    //buzz 
+     function add(num){
+       if (num % 3==0 && num % 5==0){
+        return("fuzz and buzz")
+       }else if (num % 3 == 0){
+        return("buzz")
+       }else if (num % 5 == 0){
+        return(" fuzz")
+       }else{
+        return("non")
+       }
+     }
+
+     console.log(add(10));
+           
