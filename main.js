@@ -91,4 +91,15 @@ function printFibonacciSequence(n) {
      }
 
      console.log(add(10));
-           
+     
+     
+    // not map 
+    var classRoom=[1 ,2 ,3];
+    var newarray=Array() 
+    for( i=0; i<classRoom.length ;i++ ){
+        newarray.push(classRoom[i]*10)
+    }
+   
+    console.log(newarray);
+    
+
